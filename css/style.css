@@ -1,0 +1,211 @@
+.header {
+    background-color: #f44268;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 3px solid black;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    ;
+}
+
+.navbar {
+    margin: auto;
+    font-weight: bold;
+    height: 127px !important;
+}
+
+ul.nav.navbar-nav {
+    padding-top: 40px;
+    font-variant: all-petite-caps;
+    padding-bottom: 40px;
+    font-size: 16px;
+    text-shadow: 0.6px 0.5px hotpink;
+}
+
+.navbar-nav {
+    float: right;
+    list-style: none;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    background-repeat: no-repeat;
+}
+
+nav ul li {
+    margin-right: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+.head1 {
+    color: white;
+    background-clip: none;
+    mix-blend-mode: normal;
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: red;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    line-height: 54px;
+    text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product1 {
+    margin: 1em 0 0.5em 0;
+    color: #7a2048;
+    font-weight: 1400;
+    font-family: 'Ultra', sans-serif;
+    font-size: 46px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+    text-align: center;
+}
+
+.tools1 {
+    margin: 1em 0 0.5em 0;
+    color: #7a2048;
+    font-weight: 1400;
+    font-family: 'Ultra', sans-serif;
+    font-size: 46px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+    text-align: center;
+}
+
+.about1 {
+    margin: 1em 0 0.5em 0;
+    color: rgb(233, 53, 53);
+    font-weight: 1400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 46px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px gold;
+    text-align: center;
+}
+
+.para1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #039;
+    background-color: none;
+}
+
+.image1 {
+    height: 230px;
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #800000;
+}
+
+.caption {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #800000;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+}
+
+.banner1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid burlywood;
+    background-color: red;
+}
+
+.footer {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.portfolio {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portfolio img {
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+
+.col-md-3 {
+    padding: 8px;
+    background-color: #ffffff;
+    max-width: 200px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+}
+
+.head2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font: 1px 1px 1px 1px red outline;
+    font-size: large;
+    font-style: normal;
+    font-stretch: semi-expanded;
+}
+
+.image2 {
+    height: 230px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image21 {
+    height: 230px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.About-us section{
+    width: 100%;
+    min-height: 300px;
+    background-image: url(../banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+.wrap-container{
+    width: 80%;
+    margin: 0px auto;
+}
+.aboutus.h1{
+    color: green;
+    text-align: center;
+    padding: 50px 0px;
+    margin-bottom: -30px;
+}
